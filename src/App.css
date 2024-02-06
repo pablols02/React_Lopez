@@ -17,6 +17,11 @@
   box-sizing: border-box;
 }
 
+.loader{
+  margin-top: 18%;
+  margin-left: 48.5%;
+}
+
 .section__container {
   max-width: var(--max-width);
   margin: auto;
@@ -665,6 +670,10 @@ input[type="submit"]:hover {
   .footer__container {
     grid-template-columns: 1fr 200px;
   }
+
+  .loader{
+    margin-top: 35%;
+  }
 }
 
 @media (width < 600px) {
@@ -706,6 +715,9 @@ input[type="submit"]:hover {
   .footer__bar {
     text-align: center;
   }
-}
 
+  .loader{
+    margin-top: 60%;
+  }
+}
 
